@@ -1,0 +1,187 @@
+*{ background-color: #121212;}
+h1{
+  margin: 0;
+  padding: 0;
+}
+
+body { background-color: #121212;}
+@font-face {
+  font-family: fonte_sp;
+  src: url(imgs/circ.woff);
+}
+
+.logo_spotify {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  padding-bottom: 30px;
+  margin-top: 0;
+  margin-left: 30px;
+}
+ .bloco_principal{
+  position: relative;
+  width: 500px;
+  margin: auto;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+ }
+
+.título {
+  margin-bottom: 30px;
+  position: relative;
+  width: 350px;
+  color: white;
+  font-family:fonte_sp;
+  text-align: justify;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  font-size: 20px;
+  justify-content: start;
+  
+  }
+
+.segundo_bloco{
+  width: 350px;
+  align-items: start;
+
+}
+  .end_de_email{
+    color: white;
+    font-family: fonte_sp;
+    font-size: 14px;
+    text-align: justify;
+    display: flex;
+    
+  }
+  .input_email{
+    padding-left: 20px;
+    color: white;
+    border: solid 1px gray;
+    border-radius: 3px;
+    width: 350px;
+    height: 45px;
+    display: flex;
+  }
+::placeholder{
+  font-weight:bold;
+}
+.input_email:hover, .google:hover, .face:hover, .apple:hover{
+  border-color: white;
+  color: rgb(229, 33, 134);
+}
+.usar_tel{
+    color: #FEC0CA;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: underline;
+    cursor:pointer;
+  }
+  .usar_tel:hover{
+    color: #fedae0;
+
+  }
+button{
+  border:0;
+  width: 350px;
+  height: 45px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #FEC0CA;
+  color: #121212;
+  cursor: pointer;
+}
+button:hover{
+  background-color:#fedae0 ;
+}
+.ouspan{
+  justify-content:center;
+  margin: 20px;
+  font-family: fonte_sp;
+  color: white;
+}
+.google, .face, .apple{ 
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  width: 350px;
+  height: 45px;
+  font-family: fonte_sp;
+  color: white;
+  font-size: 17px;
+  border: solid 1px gray ;
+  margin: 8px;
+  font-weight: bold;
+  display: flex;
+  cursor: pointer;
+}
+
+.icon{
+  margin-left: 20px;
+  margin-right: 50px ;
+  display: flex;
+  width: 20px;
+  justify-content: start;
+  align-items: start;
+
+}
+.ja_tem_conta{
+  display: flex;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  
+}
+.frisado{
+  text-decoration: underline;
+  color: white;
+  cursor: pointer;
+}
+.footer{
+  margin-top: 20px;
+  display: flex;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  
+}
+.mae{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line1, .line2{
+  display:flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: gray;
+  width: 145px;
+  height: 1px;
+}
+
+.line3{
+  margin-top:  40px;
+  display:flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(54, 53, 53);
+  width: 350px;
+  height: 1px;
+}
+.sublinhado{
+  text-decoration: underline;
+  cursor: pointer;
+}
