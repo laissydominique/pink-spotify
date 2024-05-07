@@ -33,7 +33,7 @@ body { background-color: #121212;}
   margin-bottom: 30px;
   position: relative;
   width: 350px;
-  color: white;
+  color: rgb(99, 99, 99);
   font-family:fonte_sp;
   text-align: justify;
   display: flex; 
