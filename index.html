@@ -6,6 +6,7 @@
   <title>Inscrever-se - Spotify</title>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="imgs/icon_principal.png">
+  <script src="doc.js" defer></script>
 </head>
 <body>
   <div class="logo_spotify">
@@ -14,6 +15,10 @@
 <div class="bloco_principal">
   <div class=" título">
   <h1> Inscreva-se e<br>Comece a curtir</h1>
+
+  <div class="login" hidden name="loguin">
+
+  </div>
   </div>
 <div class="segundo_bloco">
   <div class="end_de_email">
@@ -29,7 +34,7 @@
   </div>
 </div>
   <div class="avançar">
-  <button type="button" > Avançar</button>
+  <button id="botaoAvancar" type="button" > Avançar</button>
   </div>
 <div class="mae"> 
   <div class="line1 "></div>
@@ -56,6 +61,19 @@
 <div class= "ja_tem_conta"> 
   <p> Já tem uma conta? <p class="frisado">Faça login aqui.</p>
 </p>
+</div>
+
+<div class="login hidden" >
+  <div class="emailLogin">
+    <p>Endereço de e-mail</p>
+  </div>
+  <div class="inputs hidden">
+  <input class="input_email" type="text" name="email" placeholder="nome@domínio.com">
+  <div class="senhalLogin">
+    <p>Senha cadastrada</p>
+  </div>
+  <input class="input_senha" type="password" name="password" placeholder="nome@domínio.com">
+</div>
 </div>
 
 <div class="footer">

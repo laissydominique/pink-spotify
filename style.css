@@ -33,7 +33,7 @@ body { background-color: #121212;}
   margin-bottom: 30px;
   position: relative;
   width: 350px;
-  color: rgb(99, 99, 99);
+  color: white;
   font-family:fonte_sp;
   text-align: justify;
   display: flex; 
@@ -184,4 +184,38 @@ button:hover{
 .sublinhado{
   text-decoration: underline;
   cursor: pointer;
+}
+
+.hidden{
+  display: none;
+}
+
+.login .hidden{
+  position: relative;
+  width: 500px;
+  margin: auto;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.emailLogin, .senhaLogin{
+  color: white;
+  font-family: fonte_sp;
+  font-size: 14px;
+  text-align: justify;
+  display: flex;
+}
+
+
+.inputs{
+  padding-left: 20px;
+  color: white;
+  border: solid 1px gray;
+  border-radius: 3px;
+  width: 350px;
+  height: 45px;
+  display: flex;
+
 }
