@@ -1,91 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Inscrever-se - Spotify</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="imgs/icon_principal.png">
-  <script src="doc.js" defer></script>
-</head>
-<body>
-  <div class="logo_spotify">
-    <img src="imgs/pink.logo.png" alt="logo spotify" width="120px">
-  </div>
-<div class="bloco_principal">
-  <div class=" título">
-  <h1> Inscreva-se e<br>Comece a curtir</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inscrever-se - Spotify</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" href="imgs/icon_principal.png" />
+    <script src="doc.js" defer></script>
+  </head>
+  <body>
+    <div class="logo_spotify">
+      <img src="imgs/pink.logo.png" alt="logo spotify" width="120px" />
+    </div>
+    <div class="bloco_principal">
+      <div class="título">
+        <h1>Inscreva-se e<br />Comece a curtir</h1>
 
-  <div class="login" hidden name="loguin">
+        <div class="login" hidden name="loguin"></div>
+      </div>
+      <div class="segundo_bloco">
+        <div class="end_de_email">
+          <p>Endereço de e-mail</p>
+        </div>
 
-  </div>
-  </div>
-<div class="segundo_bloco">
-  <div class="end_de_email">
-  <p> Endereço de e-mail</p>
-  </div>
+        <div>
+          <input
+            class="input_email"
+            type="text"
+            name="email"
+            placeholder="nome@domínio.com"
+          />
+        </div>
 
-  <div>
-  <input class="input_email" type="text" name="email" placeholder="nome@domínio.com">
-  </div>
+        <div class="usar_tel">
+          <p>Usar número de telefone</p>
+        </div>
+      </div>
+      <div class="avançar">
+        <button id="botaoAvancar" type="button">Avançar</button>
+      </div>
+      <div class="mae">
+        <div class="line1"></div>
+        <p class="ouspan">ou</p>
+        <div class="line2"></div>
+      </div>
 
-  <div class="usar_tel">
-  <p>Usar número de telefone</p>
-  </div>
-</div>
-  <div class="avançar">
-  <button id="botaoAvancar" type="button" > Avançar</button>
-  </div>
-<div class="mae"> 
-  <div class="line1 "></div>
-  <p class="ouspan">ou</p>
-  <div class="line2"></div>
-</div>
+      <div class="google">
+        <img class="icon" src="imgs/google.png" />
+        <p>Inscreva-se com o Google</p>
+      </div>
+      <div class="face">
+        <img class="icon" src="imgs/face.png" />
+        <p>Inscreva-se com o Facebook</p>
+      </div>
+      <div class="apple">
+        <img class="icon" src="imgs/apple.png" />
+        <p>Criar conta com Apple</p>
+      </div>
 
-  <div class="google">
-    <img class="icon" src="imgs/google.png" >
-    <p>Inscreva-se com o Google</p>
-  </div>
-  <div class="face">
-    <img class="icon" src="imgs/face.png" >
-    <p>Inscreva-se com o Facebook</p>
-  </div>
-  <div class="apple">
-    <img class="icon" src="imgs/apple.png" >
-    <p>Criar conta com Apple</p>
-  </div>
+      <div class="line3"></div>
+    </div>
+    <div class="ja_tem_conta">
+      <p>
+        Já tem uma conta?
+        <a href="http://127.0.0.1:5500/login.html">
+          <p class="frisado">Faça login aqui.</p></a
+        >
+      </p>
+    </div>
 
-<div class="line3">
-</div>
-</div>
-<div class= "ja_tem_conta"> 
-  <p> Já tem uma conta? <p class="frisado">Faça login aqui.</p>
-</p>
-</div>
-
-<div class="login hidden" >
-  <div class="emailLogin">
-    <p>Endereço de e-mail</p>
-  </div>
-  <div class="inputs hidden">
-  <input class="input_email" type="text" name="email" placeholder="nome@domínio.com">
-  <div class="senhalLogin">
-    <p>Senha cadastrada</p>
-  </div>
-  <input class="input_senha" type="password" name="password" placeholder="nome@domínio.com">
-</div>
-</div>
-
-<div class="footer">
-  <p>This site is protected by reCAPTCHA and the Google<br>
-    <span class="sublinhado">Privacy Policy</span> and <span class="sublinhado">Terms of Service</span> apply.</p>
-</div>
-
-
-
-
-
-
-  
-</body>
+    <div class="footer">
+      <p>
+        This site is protected by reCAPTCHA and the Google<br />
+        <span class="sublinhado">Privacy Policy</span> and
+        <span class="sublinhado">Terms of Service</span> apply.
+      </p>
+    </div>
+  </body>
 </html>

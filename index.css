@@ -138,7 +138,10 @@ button:hover{
   align-items: center;
   text-align: center;
   justify-content: center;
-  
+}
+
+a{
+  color: white;
 }
 .frisado{
   text-decoration: underline;
@@ -154,8 +157,8 @@ button:hover{
   align-items: center;
   text-align: center;
   justify-content: center;
-  
 }
+
 .mae{
   display: flex;
   justify-content: center;
@@ -186,36 +189,6 @@ button:hover{
   cursor: pointer;
 }
 
-.hidden{
-  display: none;
-}
-
-.login .hidden{
-  position: relative;
-  width: 500px;
-  margin: auto;
-  text-align: justify;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.emailLogin, .senhaLogin{
-  color: white;
-  font-family: fonte_sp;
-  font-size: 14px;
-  text-align: justify;
-  display: flex;
-}
-
-
-.inputs{
-  padding-left: 20px;
-  color: white;
-  border: solid 1px gray;
-  border-radius: 3px;
-  width: 350px;
-  height: 45px;
-  display: flex;
-
+a{
+  color: none;
 }

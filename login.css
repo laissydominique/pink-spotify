@@ -1,0 +1,109 @@
+* {
+  background-color: #121212;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #121212;
+}
+
+.logo_spotify {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  padding-bottom: 30px;
+  margin-top: 0;
+  margin-left: 30px;
+}
+
+.login {
+  position: relative;
+  width: 300px;
+  margin: auto;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.título {
+  margin-bottom: 10px;
+  position: relative;
+  width: 350px;
+  color: white;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  font-size: 20px;
+  justify-content: start;
+}
+
+.dados {
+  color: white;
+  font-size: 14px;
+  margin-top: 50px;
+  justify-content: left;
+  font-size: 14px;
+  text-align: justify;
+  display: flex;
+}
+
+.input_email {
+  margin-bottom: 50px;
+}
+.input_email,
+.input_senha {
+  padding-left: 20px;
+  color: white;
+  border: solid 1px gray;
+  border-radius: 3px;
+  width: 350px;
+  height: 45px;
+  display: flex;
+}
+
+.avancar {
+  border: 0;
+  width: 374px;
+  height: 45px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #fec0ca;
+  color: #121212;
+  cursor: pointer;
+  margin-top: 70px;
+}
+
+.footer {
+  margin-top: 220px;
+  display: flex;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.input_email:hover,
+.input_senha:hover {
+  border-color: white;
+  color: rgb(229, 33, 134);
+}
+
+.avancar:hover {
+  background-color: #fedae0;
+}
+
+.sublinhado {
+  text-decoration: underline;
+  cursor: pointer;
+}
