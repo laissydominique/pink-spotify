@@ -1,8 +1,15 @@
+@font-face {
+  font-family: fonte_sp;
+  src: url(imgs/circ.woff);
+}
+
 * {
   background-color: #121212;
-  font-family: sans-serif;
-  font-weight: bold;
+  font-family: fonte_sp;
+  border: none;
+
 }
+
 h1 {
   margin: 0;
   padding: 0;
@@ -69,21 +76,41 @@ body {
   display: flex;
 }
 
-.avancar {
-  border: 0;
+.botao-avancar{
   width: 374px;
   height: 45px;
-  border-radius: 20px;
-  font-weight: bold;
+  margin-top: 3rem;
+}
+
+.avancar {
+  width: 374px;
+  height: 45px;
   font-size: 15px;
-  background-color: #fec0ca;
-  color: #121212;
+  background-color: rgb(254, 192, 202);
+  border-radius: 20px;
+}
+
+.botao-voltar{
+  width: 374px;
+  height: 45px;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.voltar{
+  width: 374px;
+  height: 45px;
+  font-size: 15px;
+  border-radius: 5px;
+  color: #fedae0;
+  border: solid 1px gray;
   cursor: pointer;
-  margin-top: 70px;
 }
 
 .footer {
-  margin-top: 220px;
+  margin-top: 140px;
   display: flex;
   color: gray;
   font-family: Arial, Helvetica, sans-serif;
@@ -91,6 +118,16 @@ body {
   align-items: center;
   text-align: center;
   justify-content: center;
+}
+
+.footer p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+
 }
 
 .input_email:hover,
@@ -107,3 +144,4 @@ body {
   text-decoration: underline;
   cursor: pointer;
 }
+
