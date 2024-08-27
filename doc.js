@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
   telefone.addEventListener("click", () => {
     if (
       email.placeholder === "nome@dominio.com" &&
-      telefone.textContent === "Usar número de telefone" 
+      telefone.textContent === "Usar número de telefone"
     ) {
       email.placeholder = "(XX) xxxxx-xxxx";
       telefone.innerHTML = "Usar email";
@@ -22,7 +22,5 @@ document.addEventListener("DOMContentLoaded", function (event) {
       email.placeholder = "nome@dominio.com";
       telefone.innerHTML = "Usar número de telefone";
     }
-
-    
   });
 });
