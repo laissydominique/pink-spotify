@@ -22,6 +22,7 @@ body {
   margin-top: 0;
   margin-left: 30px;
 }
+
 .bloco_principal {
   position: relative;
   width: 500px;
@@ -51,6 +52,7 @@ body {
   width: 350px;
   align-items: start;
 }
+
 .end_de_email {
   color: white;
   font-family: fonte_sp;
@@ -58,6 +60,7 @@ body {
   text-align: justify;
   display: flex;
 }
+
 .input_email {
   padding-left: 20px;
   color: white;
@@ -67,9 +70,11 @@ body {
   height: 45px;
   display: flex;
 }
+
 ::placeholder {
   font-weight: bold;
 }
+
 .input_email:hover,
 .google:hover,
 .face:hover,
@@ -77,6 +82,7 @@ body {
   border-color: white;
   color: rgb(229, 33, 134);
 }
+
 .usar_tel {
   color: #fec0ca;
   font-family: Arial, Helvetica, sans-serif;
@@ -84,9 +90,11 @@ body {
   text-decoration: underline;
   cursor: pointer;
 }
+
 .usar_tel:hover {
   color: #fedae0;
 }
+
 button {
   border: 0;
   width: 350px;
@@ -98,15 +106,18 @@ button {
   color: #121212;
   cursor: pointer;
 }
+
 button:hover {
   background-color: #fedae0;
 }
+
 .ouspan {
   justify-content: center;
   margin: 20px;
   font-family: fonte_sp;
   color: white;
 }
+
 .google,
 .face,
 .apple {
